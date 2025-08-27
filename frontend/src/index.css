@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* @plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+} */
+
+/* Global css */
+*{
+  font-family: 'Outfit', sans-serif; /* declaring the font as outfit for the whole page*/
+}
+
+.placeholder-color{
+  color:#0e0e0e;
+  font-weight: 300;
+}
+
