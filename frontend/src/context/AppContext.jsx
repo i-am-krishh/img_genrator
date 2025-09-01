@@ -1,8 +1,8 @@
 import { createContext, useState } from "react";
 
 export const AppContext = createContext({
-    // user: null,
-    // setUser: () => {}
+    user: null,
+    setUser: () => {}
 })
  
 const AppContextProvider = (props) => {

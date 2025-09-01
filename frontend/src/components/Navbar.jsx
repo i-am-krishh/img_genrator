@@ -1,5 +1,7 @@
 import { useContext } from "react";
-import logo from "./../assets/prompt_pixel_1.png";
+
+import { assets } from "../assets/assets"
+// import logo from "./../assets/assets";
 import { Link, useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 // Import individual assets directly
@@ -16,9 +18,9 @@ const Navbar = () => {
       <div className="flex items-center justify-between py-4 ">
         <Link to="/">
           <img
-            src={logo}
+            src={assets.prompt_pixel_1}
             alt="PromptPixels Logo"
-            className="w-28 sm:w-32 lg:w-40"
+            className="w-28 sm:w-32 lg:w-30"
           />
         </Link>
 

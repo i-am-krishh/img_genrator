@@ -18,7 +18,8 @@ import cross_icon from './cross_icon.svg'
 import star_group from './star_group.png'
 import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
-import prompt_pixel_1 from './prompt_pixel_1.png'
+import prompt_pixel_1 from './prompt_pixel_1_temp.png'
+import prompt_pixel_2 from './prompt_pixel.png'
 
 
 
@@ -39,7 +40,8 @@ export const assets = {
     star_group,
     credit_star,
     profile_icon,
-    prompt_pixel_1
+    prompt_pixel_1,
+    prompt_pixel_2
 }
 
 export const stepsData = [
@@ -104,3 +106,5 @@ export const plans = [
       desc: 'Best for enterprise use.'
     },
   ]
+
+export default assets;
